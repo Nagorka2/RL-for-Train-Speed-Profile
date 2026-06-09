@@ -1,0 +1,10 @@
+# Developed against Ray 2.x (RLlib) with PyTorch on Windows.
+# Pin exact versions if you need reproducibility.
+ray[rllib]
+torch
+gymnasium
+gym
+numpy
+requests
+psutil
+pyautogui

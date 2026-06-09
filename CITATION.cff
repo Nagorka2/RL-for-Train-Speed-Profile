@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software or reference its findings, please cite the thesis below."
+title: "Hybrid Modelling Approach to Optimise the Train Speed Profile"
+abstract: >-
+  A hybrid modelling approach combining physics-informed constraints with a Soft
+  Actor-Critic reinforcement-learning agent to optimise train speed profiles in
+  the Open Rails simulator.
+type: thesis
+authors:
+  - family-names: Håkansson
+    given-names: Joel
+  - family-names: Nagorka
+    given-names: Adrian
+year: 2025
+institution:
+  name: KTH Royal Institute of Technology
+  address: Stockholm, Sweden
+keywords:
+  - reinforcement learning
+  - soft actor-critic
+  - train control
+  - speed profile optimisation
+  - Open Rails
+# TODO: add the DiVA URL once published
+url: ""

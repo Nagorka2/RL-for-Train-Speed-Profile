@@ -1,0 +1,50 @@
+<svg viewBox="0 0 720 410" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <rect x="1" y="1" width="718" height="408" rx="12" fill="#ffffff" stroke="#e5e7eb"/>
+  <text x="36" y="40" font-size="20" font-weight="700" fill="#111827">Relative speed-limit violations</text>
+  <text x="36" y="62" font-size="13" fill="#6b7280">Normalised so v3 = 100%. Lower is better. v3 had essentially zero meaningful overspeed.</text>
+
+  <text x="22" y="200" font-size="12" fill="#6b7280" transform="rotate(-90 22 200)" text-anchor="middle">relative incidents (%)</text>
+
+  <!-- gridlines 0..700, y = 330 - val*0.38571 -->
+  <g stroke="#eef2f7" stroke-width="1">
+    <line x1="60" y1="330" x2="690" y2="330"/>
+    <line x1="60" y1="291.4" x2="690" y2="291.4"/>
+    <line x1="60" y1="252.9" x2="690" y2="252.9"/>
+    <line x1="60" y1="214.3" x2="690" y2="214.3"/>
+    <line x1="60" y1="175.7" x2="690" y2="175.7"/>
+    <line x1="60" y1="137.1" x2="690" y2="137.1"/>
+    <line x1="60" y1="98.6"  x2="690" y2="98.6"/>
+    <line x1="60" y1="60"    x2="690" y2="60"/>
+  </g>
+  <g font-size="11" fill="#9ca3af" text-anchor="end">
+    <text x="52" y="334">0</text>
+    <text x="52" y="295">100</text>
+    <text x="52" y="256">200</text>
+    <text x="52" y="218">300</text>
+    <text x="52" y="179">400</text>
+    <text x="52" y="141">500</text>
+    <text x="52" y="102">600</text>
+    <text x="52" y="64">700</text>
+  </g>
+
+  <!-- bars -->
+  <!-- v1: 681.46% -> h262.8 top67.2 -->
+  <rect x="135" y="67.2" width="90" height="262.8" rx="4" fill="#ef4444"/>
+  <text x="180" y="57" font-size="15" font-weight="700" fill="#b91c1c" text-anchor="middle">681%</text>
+  <!-- v2: 157.55% -> h60.8 top269.2 -->
+  <rect x="330" y="269.2" width="90" height="60.8" rx="4" fill="#f59e0b"/>
+  <text x="375" y="259" font-size="15" font-weight="700" fill="#b45309" text-anchor="middle">158%</text>
+  <!-- v3: 100% -> h38.6 top291.4 -->
+  <rect x="525" y="291.4" width="90" height="38.6" rx="4" fill="#10b981"/>
+  <text x="570" y="281" font-size="15" font-weight="700" fill="#047857" text-anchor="middle">100%</text>
+
+  <line x1="60" y1="330" x2="690" y2="330" stroke="#cbd5e1" stroke-width="1.5"/>
+
+  <g font-size="13" fill="#374151" text-anchor="middle">
+    <text x="180" y="352" font-weight="600">v1</text>
+    <text x="375" y="352" font-weight="600">v2</text>
+    <text x="570" y="352" font-weight="600">v3</text>
+  </g>
+
+  <text x="36" y="392" font-size="12" fill="#6b7280">Simplifying the reward (v1 → v2 → v3) cut overspeeding by ~6.8× while keeping the schedule.</text>
+</svg>
