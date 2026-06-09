@@ -9,7 +9,7 @@ high-fidelity physics simulator with a Soft Actor-Critic (SAC) agent.
 This repository accompanies the KTH bachelor thesis *"Hybrid Modelling Approach
 to Optimise the Train Speed Profile"* by **Joel Håkansson** and **Adrian
 Nagorka** (Department of Mathematics, Optimisation). The full thesis is publicly
-available in KTH DiVA: **[<!-- TODO: paste DiVA URL --> add DiVA link here]**.
+available in KTH DiVA: **https://kth.diva-portal.org/smash/record.jsf?aq2=%5B%5B%5D%5D&c=57&af=%5B%5D&searchType=LIST_LATEST&sortOrder2=title_sort_asc&query=&language=sv&pid=diva2%3A1982643&aq=%5B%5B%5D%5D&sf=all&aqe=%5B%5D&sortOrder=author_sort_asc&onlyFullText=false&noOfRows=50&dswid=-4325**.
 
 > **Status:** research code from the thesis project. It runs against a live
 > Open Rails instance on Windows and is shared as a portfolio reference, not a
